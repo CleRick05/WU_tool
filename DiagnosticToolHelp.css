@@ -1,0 +1,286 @@
+BODY  {
+	font-family : Arial, sans-serif;
+	font-style : normal;
+	color : Black;
+	text-align : left;
+	text-decoration : none;
+	margin-left: 1em;
+	margin-top : 0;
+	font-size : 10pt;
+	background-color : #ffffff;
+}
+
+IMG{
+text-align:center;
+border: 0;
+margin-bottom:0;
+margin-top: 0;
+}
+
+#header TABLE {
+border-collapse: collapse;
+border-spacing: 0;
+padding: 0;
+height: 65px;
+margin: 1em 0 1em 0;
+border : 0;
+}
+
+TABLE  {
+	background : white;
+	margin-bottom : 6pt;
+	margin-top : 6pt;
+	margin-right : 0pt;
+	border : 1px solid  #e0e1dd;
+	border-collapse: collapse;
+}
+
+#header TR  {
+	vertical-align: auto;
+}
+
+#header TD {
+	height: 65px;
+	border : 0;
+	  padding :0px;
+}
+#header TD.fill {
+	height: 65px;
+	font-size : 18pt;
+	font-weight: normal;
+	text-align: right;
+	padding: 20px 0 0 0;
+	color: white;
+	font-family : Arial, sans-serif;
+  background-repeat: repeat-x;
+  background-image: url(Images/header.fill.x65.y1.png);	
+	border : 0 solid black;
+}
+
+#header TD.end {
+	height: 65px;
+	font-size : 18pt;
+	font-weight: normal;
+	text-align: right;
+	padding: 20px 0 0 0;
+	color: white;
+	font-family : Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-image: url(Images/header.right.x65.y10.png);	
+	border : 0 solid black;
+}
+
+H1  {
+	color: #000000;
+	font-size : 130%;
+	font-weight : bold;
+	margin-top : 0pt;
+	margin-bottom : 3pt;
+}
+
+#header H1  {
+	color: #30383a; /*Pantone Cool Gray 11C*/
+	font-size : 110%;
+	font-weight : normal;
+	margin-top : 0pt;
+	margin-bottom : 0;
+	text-align: center;
+}
+
+H2  {
+	background-color: white; /*Pantone Cool Gray 1*/
+  border: 1px solid #e0e1dd;
+	border-width: 1px 0 0 0;
+	color: #30383a; /*Pantone Cool Gray 11C*/
+	font-size : 140%;
+	font-weight : normal;
+	padding: 2px 0 4px 0;
+	margin-top : 1em;
+	margin-bottom : 3pt;
+}
+
+H3  {
+	color: black;
+	font-size : 100%;
+	font-weight : bold;
+	margin-top : 0pt;
+	margin-bottom : 3pt;
+}
+
+H4 {
+	color: #f99b0c; /*Pantone 1375c */
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: 0pt;
+	margin-bottom: 3pt;
+}
+
+
+A {
+	color : #d58d14;
+	text-decoration: none;
+}
+
+A:Active  {
+	color: #969f18;
+	text-decoration: none;
+}
+
+A:Hover  {
+	color : #CC6600;
+}
+
+
+
+P  {
+	font-size : 10pt;
+	font-weight : normal;
+	margin-top : 0;
+	margin-bottom : 9pt;
+}
+
+
+
+P.Legal  {
+	font-size : 8pt;
+	font-weight : normal;
+	margin-top : 0;
+	margin-bottom : 6pt;
+}
+
+
+
+UL {
+	margin-top: 0;
+	margin-bottom:9pt;
+	margin-left:1em;
+	padding: 0 0 0 1em; 
+	font-size : 10pt;
+	list-style-position:outside;	
+	list-style-type : disc;
+	}
+
+UL.single {
+	margin-top: 0;
+	margin-bottom:9pt;
+	margin-left:0.0em;
+	padding: 0 0 0 0.0em; 
+	font-size : 10pt;
+	list-style-position:outside;	
+	list-style-type : none;
+}
+
+
+UL UL  {
+
+	list-style-type : circle;
+}
+
+
+OL  {
+	margin-top: 0;
+	margin-bottom:9pt;
+	margin-left:1em;
+	padding: 0 0 0 1em; 
+	font-size : 10pt;
+	list-style-position:outside;	
+}
+
+
+OL  {
+
+	list-style-type : decimal;
+}
+
+OL OL {
+
+	list-style-type : lower-alpha;
+}
+
+
+
+DL  {
+	margin-top : 0in;
+	margin-bottom : 6pt;
+	margin-right : 30%;
+}
+
+DT  {
+	color: #30383a;
+	font-weight: bold;
+	margin-top : 6pt;
+	margin-bottom : 0pt;
+	margin-left : 0in;
+}
+
+DD  {
+	margin-left : 2em;
+	margin-bottom : 0pt;
+}
+
+
+PRE  {
+	font-family : Courier New, Courier, monospace;
+	font-size : 9pt;
+}
+
+
+
+
+
+
+TR  {
+
+	vertical-align: top;
+}
+
+
+TH  {
+	background-color: #e0e1dd;
+	color: black;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	text-align: left;
+  padding :4px;
+	border : 1px solid #eeeeee;
+}
+
+
+TD  {
+	font-size : 10pt;
+	font-family :  Arial, sans-serif;
+  text-align: left;
+  padding :4px;
+	border : 1px solid #e0e1dd;
+}
+
+
+
+
+B,  strong{
+	font-weight : bold;
+	color : #30383a;
+}
+
+CITE  {
+	font-style : italic;
+}
+
+CODE  {
+	font-family : Courier New, Courier, monospace;
+	font-size : 9pt;
+}
+
+I  {
+	font-style : italic;
+}
+
+KBD  {
+	font-family : Courier New, Courier, monospace;
+	font-size : 10pt;
+}
+
+VAR  {
+	font-style : italic;
+}
